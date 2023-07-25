@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+<h1> Dribbling </h1>
+{% endblock %}
+
+{% block body %}
+<a href="/">home</a>
+<nav class="navbar navbar-expand-md navbar dark bg-dark">
+    <a class = "navbar-brand" href="#">OIDAD</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-targets="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">home <span class="sr-only">(current)</span></a>
+            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">passing</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">shooting</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">dribbling</a>
+            </li>
+        </ul>        
+    </div>    
+    </nav>    
+{% endblock %}

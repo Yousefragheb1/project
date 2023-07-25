@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,35 @@
     {% block head %}{% endblock %}
 </head>
 <body>
+   
+        </div>    
+        </nav>    
     {% block body %}{% endblock %}
 </body>
+</html> 
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> {{title}}</title>
+        <link rel="icon" type="image/x-icon" href="/static/imagesball.jpg">
+        <link rel="stylesheet" href = "/static/css/style.css">
+    </head>
+    <body>
+        
+        <header>
+            {% include 'header.html' %}
+        </header>
+        <nav>
+            {% include 'nav.html' %}
+        </nav>
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+        <footer>
+            {% include 'footer.html' %}
+        </footer>
+    </body>
 </html>

@@ -1,4 +1,54 @@
+#---cssforheader
+.header {
+    background-color: #27472f;
+    text-align: center;
+    padding: 20px;
+  }
+
+   h1{
+  font-size: 50px;
+  color: #2f6680;
+  text-align: center;
+  font-family: sans-serif;   
+}
+
+
+
+
+
+       
+
+
+
 body{
     margin: 0;
     font-family: sans-serif;
 }
+
+a{
+  font-size: 30px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+header {
+  background-color: rgba(44, 173, 32, 0.685);
+}
+
+
+
+
+
+
