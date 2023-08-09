@@ -1,8 +1,12 @@
 {% extends 'layout.html' %}
 {% block content %}
 
-<h1> This course is {{football[1]}}</h1>
-<img src="{{football[3]}}" width="500" height="500"/>
+<h2> This course is {{football[1]}}</h2>
+<img src="{{football[3]}}" > 
+ 
+
+<p>{{football[4]|safe}}</p>
 
 
 {% endblock %}
+

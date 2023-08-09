@@ -40,5 +40,10 @@ def football(id):
     return render_template('football.html', football=football, review=review)
 
 
+@app.errorhandler(404)
+def not_found(e):
+  return render_template("404.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
