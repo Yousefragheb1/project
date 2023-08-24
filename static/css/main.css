@@ -6,14 +6,14 @@ h1{
   font-size: 50px;
   text-align: center;
   font-family: sans-serif;   
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 h2{
   font-size: 40px;
   font-family: sans-serif;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
   
 }
 
@@ -26,18 +26,13 @@ center {
   width: 50%;
 }
 
-a{
-  font-size: 25px;
-  font-family: sans-serif;
-  color: rgb(0, 0, 0);
-}
 
 p{
  font-family: sans-serif;
- font-size: 20px;
+ font-size: 25px;
  font-weight: bold;
  text-align: center;
- color: white;
+ color: rgb(0, 0, 0);
 }
 
 
@@ -48,7 +43,7 @@ img {
   height: 25%;
   border-style: solid;
   border-radius: 20px;
-  
+ 
 
 }
 
@@ -57,23 +52,25 @@ body{
   background: url(../images/background.jpg) ;
 }
 
-<!--
-#div1{
-  width: 33.3%;
-  float: right;
+
+
+
+
+nav{
+text-align: center;
 }
 
-#div2{
- 
-  width: 33.3%;
-  margin: 0 auto;
+a{
+  font-size: 25px;
+  font-family:'poppins', sans-serif;
+  color: rgb(0, 0, 0);
+  padding: 0 10px;
 }
 
-#div3{
-  
-  width: 33.3%;
-  float: left;
-}
+
+
+
+
 
 
 

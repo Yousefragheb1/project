@@ -3,9 +3,8 @@
 {% for item in results %}
 
 <link rel="stylesheet" href="/static/css/main.css">
-<div id="div1"><h2> <a href="/football/{{item[0]}}"> {{item[1]}}</a></h2></div>
-<div id="div2"><h2><a href="/football/{{item[0]}}"> {{item[1]}}</a></h2></div>
-<div id="div3"><h2><a href="/football/{{item[0]}}"> {{item[1]}}</a></h2></div>
-<h2> <a href="/football/{{item[0]}}"> {{item[1]}}</a> </h2> 
+<!--safe is used to bypass flask security-->
+<h2> <a href="/football/{{item[0]|safe}}"> {{item[1]}}</a> </h2> 
+
 {% endfor %}
 {% endblock %}
