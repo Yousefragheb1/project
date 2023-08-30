@@ -58,12 +58,13 @@ body{
 
 nav{
 text-align: center;
+color: blue;
 }
 
 a{
   font-size: 25px;
   font-family:'poppins', sans-serif;
-  color: rgb(0, 0, 0);
+  color: black;
   padding: 0 10px;
 }
 
