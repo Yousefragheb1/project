@@ -1,10 +1,10 @@
 {% extends 'layout.html' %}
 {% block content %}
 {% for item in results %}
-
+!
 <link rel="stylesheet" href="/static/css/main.css">
-<!--safe is used to bypass flask security-->
-<h2> <a href="/football/{{item[0]|safe}}"> {{item[1]}}</a> </h2> 
+
+<h2> <a href="/football/{{item[0]}}"> {{item[1]}}</a> </h2> 
 
 {% endfor %}
 {% endblock %}

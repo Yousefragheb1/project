@@ -3,9 +3,11 @@
 
 <h2> This drill is {{football[1]}}</h2>
 <img src="{{football[3]}}" > 
+{# The '|safe' filter marks the content as safe HTML to bypass Flask's automatic HTML escaping. #}
+{# which means HTML tags within football[4] will be rendered as actual HTML in my case line breaks #}
+
+<p>{{football[4]|safe}}</p>
  
-
-
 
 {% endblock %}
 

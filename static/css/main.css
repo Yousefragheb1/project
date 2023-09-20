@@ -1,7 +1,3 @@
-
-
-
-   
 h1{
   font-size: 50px;
   text-align: center;
@@ -9,11 +5,12 @@ h1{
   color: rgb(255, 255, 255);
 }
 
+
 h2{
-  font-size: 40px;
+  font-size: 35px;
   font-family: sans-serif;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   
 }
 
@@ -30,9 +27,8 @@ center {
 p{
  font-family: sans-serif;
  font-size: 25px;
- font-weight: bold;
  text-align: center;
- color: rgb(0, 0, 0);
+ color: rgb(255, 255, 255);
 }
 
 
@@ -47,19 +43,18 @@ img {
 
 }
 
+
 body{
   min-height: 100vh;
   background: url(../images/background.jpg) ;
 }
 
 
-
-
-
 nav{
 text-align: center;
 color: blue;
 }
+
 
 a{
   font-size: 25px;
